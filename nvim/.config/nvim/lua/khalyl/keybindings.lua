@@ -23,4 +23,8 @@ map("n", "<leader>fg", "<cmd>lua require('telescope.builtin').live_grep()<cr>")
 map("n", "<leader>fb", "<cmd>lua require('telescope.builtin').buffers()<cr>")
 map("n", "<leader>fh", "<cmd>lua require('telescope.builtin').help_tags()<cr>")
 
-
+--# nerdtree.nvim
+map("n", "<C-n>", "<cmd>NERDTree<cr>")
+map("n", "<leader>nf", "<cmd>NERDTreeFocus<cr>")
+map("n", "<leader>nt", "<cmd>NERDTreeToggle<cr>")
+map("n", "<leader>ng", "<cmd>NERDTreeFind<cr>")
