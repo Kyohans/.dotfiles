@@ -32,7 +32,6 @@ set hidden
 set scrolloff=8
 set ttyfast
 
-
 " save undo history
 set undofile
 
@@ -81,6 +80,10 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'neovim/nvim-lspconfig'
     Plug 'glepnir/lspsaga.nvim', {'branch': 'main'}
     Plug 'fatih/vim-go'
+    Plug 'Shougo/deoplete.nvim', {'do': ':UpdateRemotePlugins'}
+
+    " Async Run
+    Plug 'CRAG666/code_runner.nvim'
 
     " Lightline
     Plug 'itchyny/lightline.vim'
