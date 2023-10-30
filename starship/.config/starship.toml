@@ -1,0 +1,4 @@
+[username]
+format = '[$user]($style) '
+disabled = false
+show_always = true
