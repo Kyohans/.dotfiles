@@ -11,7 +11,7 @@ require('mason').setup({
 local servers = {
     'pylsp', 'gopls', 'lua_ls', 'rust_analyzer', 'clangd',
     'bashls', 'html', 'ltex', 'jsonls', 'marksman', 'cssls',
-    'cmake', 'tsserver', 'yamlls',
+    'cmake', 'tsserver', 'yamlls', 'zls',
 }
 require('mason-lspconfig').setup({
     -- A list of servers to automatically install if they're not already installed

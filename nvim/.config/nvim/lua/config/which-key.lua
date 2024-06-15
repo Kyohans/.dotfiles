@@ -13,5 +13,13 @@ wk.register({
         b = "Buffers",
         h = "Help Tags",
       },
+      l = {
+        name = "Leetcode.nvim",
+        r = "Run",
+        s = "Submit",
+        m = "Menu",
+        c = "Random Challenge",
+        h = "Hints",
+      },
     }
 })
